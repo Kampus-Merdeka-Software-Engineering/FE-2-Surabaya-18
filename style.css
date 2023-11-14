@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgb(226, 199, 185);
+    border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    font-style: italic
+}
+.navbar .navbar-logo span {
+    color: burlywood
+}
+.navbar .navbar-nav a {
+    color: white;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+/* Image */
+.Logo img {
+    float: center;
+    width: 100;
+    padding: 100;
+}
+.Logo {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(Image/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Logo .Logo-conten {
+    padding: 1 7%;
+    max-width: 5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.Logo .Logo-conten span {
+    color: burlywood
+}
+.Logo .Logo-conten {
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    line-height: 1.2;
+}
+.Logo .Logo-image {
+    float: right;
+    margin-right: 50;
+    width: 50;
+    height: 50;
+    margin: 1 1 0 0;
+    padding-inline: 10px;
+}
+.Logo-bar {
+    padding: 5rem 7% 1.4rem;
+}
+.Logo-bar h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
