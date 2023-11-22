@@ -1,0 +1,161 @@
+body {
+    font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #432818;
+   color: #fff;
+   text-align: center;
+   width: 100%;
+   border-bottom: 2px solid #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 9999;
+   
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+/* 
+.logo {
+   font-size: ;
+   font-weight: ;
+} */
+
+.logo img {
+   width: 100px;
+   height: 100px;
+   padding-left: 10px;
+}
+
+.menuToggle {
+   font-size: 1.5rem;
+   cursor: pointer;
+   display: none;
+}
+
+.navbar {
+   list-style: none;
+   display: flex;
+}
+
+.navbar li {
+   margin: 0 10px;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: rgb(241, 245, 245);
+   padding: 10px;
+   border-radius: 5px;
+   transition: baground-color 0.3s ease;
+}
+
+.navbar a:hover {
+   background-color: #bb9457;
+   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+   .menuToggle {
+       display: block;
+   }
+
+   .navbar {
+       display: none;
+       flex-direction: column;
+       position: absolute;
+       top: 60px;
+       left: -100px;
+       width: 100px;
+       background-color: black;
+       transition: left 0.3s ease;
+   }
+
+   .navbar.show {
+       left: o;
+       text-align: flex;
+   }
+
+   .navbar il {
+       margin: 10px;
+       text-align: center;
+   }
+}
+
+footer {
+   background-color: #432818;
+   color: #fff;
+   text-align: center;
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.Home {
+   color: #432818;
+   text-shadow: 1px 1px 3px blanchedalmond;
+   line-height: 1.2;
+   min-height: 100vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   background-image: url('../asset/bg3.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+
+}
+.Home h1 {
+   font-size: 2vw;
+   padding-left: 50vh;
+}
+.Home h1 span {
+   color: #bb9457
+}
+.Home a {
+   font-size: 5vh;
+   padding-left: 85vh;
+   color: #bb9457;
+   text-underline-offset: 2vh;
+   font-style: italic;
+}
+.Menu {
+   text-align: center;
+   font-size: 1rem;
+   margin-bottom: 3rem;
+}
+.Menu .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 5rem;
+   justify-content: center;
+}
+.menu-card {
+   text-align: center;
+   margin-bottom: 1rem;
+}
+.menu-card img{
+   border-radius: 50%;
+   width: 20vh;
+   padding-left:20px;
+}
+.menu-card-title {
+   margin: 1rem auto 0.5rem;
+}
+.article h1 {
+   float: left;
+   width: 800px;
+}
+.article_img {
+   float: right;
+   width: 500px;
+}
