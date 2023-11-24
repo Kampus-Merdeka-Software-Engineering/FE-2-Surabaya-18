@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #432818;
+    color: #fff;
+    text-align: center;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.menuToggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(241, 245, 245);
+    padding: 10px;
+    border-radius: 5px;
+    transition: baground-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #bb9457;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .menuToggle {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: -100px;
+        width: 100px;
+        background-color: black;
+        transition: left 0.3s ease;
+    }
+
+    .navbar.show {
+        left: o;
+        text-align: flex;
+    }
+
+    .navbar il {
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+.delivery-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.delivery-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.contact {
+    background-color: #eae4d8;
+    height: 200px;
+}
+
+.contact h2 {
+    padding: 15px 0px 0px 30px;
+}
+
+.contact p {
+    padding: 0px 0px 0px 30px;
+}
+
+.footer {
+    background-color: #432818;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
