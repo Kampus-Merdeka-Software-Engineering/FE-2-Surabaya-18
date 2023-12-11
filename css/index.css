@@ -220,6 +220,75 @@ html ul, ol {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.message {
+    width: 100%;
+    background-color:#bb9457;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.message-content {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.message-content img {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    padding: 2rem;
+    border-radius: 18%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .message-content {
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .message-content img {
+        width: 75vw;
+        height: 50vh;
+        display: flex;
+        padding: 1rem;
+        border-radius: 10%;
+    }
+}
+
+.message-content .contentword {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.message-content .contentword h2 {
+    font-size: 2.5rem;
+    color: white;
+    padding: 1rem;
+    text-shadow: 3px 2px 2px #432818;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.message-content .contentword .message-action {
+    border: 2px solid black;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    isolation: isolate;
+    color: #fff;
+    background-color: #6F1D1B;
+}
+
 footer {
     background-color: rgb(67, 40, 24);
     color: rgb(255, 255, 255);
