@@ -7,7 +7,7 @@ async function addcontact() {
     const Subject = document.getElementById('subject').value;
     const Message = documen.getElementById('message').value;
     try {
-        await fetch (`${API_BASE_URL}/contactus`, {
+        await fetch (`${API_BASE_URL}/contact`, {
             method : 'POST',
             headers: {
                'Content-Type':'application/json' 
@@ -25,9 +25,9 @@ async function addorder() {
     const Address = document.getElementById('address').value;
     const Phone_Number = document.getElementById('phone').value;
     const Order = document.getElementById('food').value;
-    const Order_Quantity = document.getElementById('quantity').value;
+    const Order_Quantity = parseInt(document.getElementById('quantity').value);
     try {
-        await fetch (`${API_BASE_URL}/sells`, {
+        await fetch (`${API_BASE_URL}/order`, {
             method : 'POST',
             headers: {
                'Content-Type':'application/json' 
