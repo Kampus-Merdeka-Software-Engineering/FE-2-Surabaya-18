@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://localhost:3300';
+const API_BASE_URL = 'https://be-2-surabaya-18-production.up.railway.app/';
 
 async function addcontact() {
     const Customer_name = document.getElementById('name').value;
