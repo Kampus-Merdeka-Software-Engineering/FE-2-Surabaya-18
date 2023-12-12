@@ -8,7 +8,7 @@ The founders of Pawon Java are students from different universities, who met in 
 # 1. Menu
 A feature to select and purchase large portions for each meal, whether for large events such as weddings and parties.
 # 2. Order
-A feature that can be used by customers to check the price of the order options purchased.
+A feature that customers use to check the total price of their order and submit the order.
 # 3. Contact Us
 A feature to send messages and suggestions.
 # TECHNOLOGY USED
